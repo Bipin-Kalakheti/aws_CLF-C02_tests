@@ -28,6 +28,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <nav>
+          <h1>Test for AWs</h1>
+        </nav>
         {children}
       </body>
     </html>
